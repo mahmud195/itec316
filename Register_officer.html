@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="login_page.css">
+</head>
+<body>
+
+<form action="/action_page.php" style="max-width:500px;margin:auto">
+  <h2>Register Officer</h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Name" name="name">
+  </div>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="SurName" name="surName">
+  </div>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="DOB" name="dob">
+  </div>
+  <div class="input-container">
+    <i class="fa fa-star icon"></i>
+    <input class="input-field" type="text" placeholder="Rank" name="rank">
+  </div>
+  <p class="input-container" >Gender</p>
+<label class="container">
+  <input type="radio" checked="checked" name="gender" value="male">Male
+  <span class="checkmark"></span>
+</label>
+<label class="container">
+  <input type="radio" name="gender" value="female">Female
+  <span class="checkmark"></span>
+</label>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="officer ID" name="usrname">
+  </div>
+
+
+  <div class="input-container">
+    <i class="fa fa-expeditedssl icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>
+  <div class="input-container">
+    <i class="fa fa-expeditedssl icon"></i>
+    <input class="input-field" type="password" placeholder="Confirm Password" name="psw">
+  </div>
+
+  <input type="submit" value="Add Officer" class="btn">
+</form>
+
+</body>
+</html>
